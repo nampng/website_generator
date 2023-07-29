@@ -1,0 +1,8 @@
+TITLE "My Awesome Website"
+HEADER1 "Welcome to my awesome website"
+PARA "This is an auto generated website. Isn't that kind of cool?!?!?!"
+IMAGE image.jpg
+PARA "Check out this cool image."
+
+HEADER2 "Another header, but smaller."
+PARA "Wow!"
