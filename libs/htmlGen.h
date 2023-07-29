@@ -7,6 +7,7 @@
 
 
 class HtmlGenerator {
+public:
 	HtmlGenerator(std::filesystem::path input, std::filesystem::path output);
     ~HtmlGenerator();
 
