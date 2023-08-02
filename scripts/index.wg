@@ -1,10 +1,10 @@
-META
-TITLE "My Awesome Website"
-BODY
-H1 "Welcome to my awesome website"
-P "This is an auto generated website. Isn't that kind of cool?!?!?!"
-IMG image.jpg
-P "Check out this cool image."
-BREAK
-H2 "Another header, but smaller."
-P "Wow!"
+TITLE;"My Awesome Website"
+H1;"Welcome to my awesome website"
+P;"This is an auto generated website. Isn't that kind of cool?!?!?!"
+IMG;image.jpg
+P;"Check out this cool image."
+BREAK;
+H2;"Another header, but smaller."
+P;"Wow!"
+LINK;"about"
+INVALID;"THIS IS NOT A REAL TAG!"

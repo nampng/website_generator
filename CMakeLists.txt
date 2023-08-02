@@ -11,5 +11,5 @@ add_subdirectory(libs)
 
 add_executable(WebsiteGenerator main.cpp)
 
-target_link_libraries(WebsiteGenerator PUBLIC GeneratorLibs)
+target_link_libraries(WebsiteGenerator PRIVATE HtmlGen)
 target_include_directories(WebsiteGenerator PUBLIC "${PROJECT_BINARY_DIR}" "{PROJECT_BINARY_DIR}/libs")

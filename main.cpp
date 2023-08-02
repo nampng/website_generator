@@ -1,7 +1,7 @@
 #include <iostream>
 #include <filesystem>
 
-#include "libs/htmlGen.h"
+#include "htmlGen.h"
 
 int main()
 {
