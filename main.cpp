@@ -17,6 +17,7 @@ int main()
     // Parse scripts and generate html files.
     HtmlGenerator generator(scripts_dir, output_dir);
     generator.parseAll();
+    generator.write();
 
     // Move resources to output/resource
 
