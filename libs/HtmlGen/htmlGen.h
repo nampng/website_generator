@@ -26,7 +26,8 @@ public:
 
     void parseAll();
     void parseScript(std::filesystem::path script);
-    void createElement(std::string line);
+    void createElement(std::string &line);
+    void write();
 private:
     std::filesystem::path scripts_dir;
     std::filesystem::path output_dir;
